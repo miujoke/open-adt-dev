@@ -25,8 +25,8 @@ export default {
       console.log(options)
       const client = new OSS({
         region: 'oss-cn-shenzhen',
-        accessKeyId: 'LTAImMFbWWBPb0qj',
-        accessKeySecret: 'CQlAiBzcIHBxUcbPzhq8Kp00maBpDQ',
+        accessKeyId: '阿里云的keyid',
+        accessKeySecret: '阿里云的secret',
         bucket: 'localupfile'
       });
       // 名称前面加一个时间戳
